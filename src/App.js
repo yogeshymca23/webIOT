@@ -37,7 +37,7 @@ function App() {
                   <div class="row">
                     <div class="col-lg-12 d-flex justify-content-center   align-middle">
 
-                      <a href="#">
+                      <a href='/#'>
                         <span></span>
                         <span></span>
                         <span></span>
@@ -200,12 +200,3 @@ function App() {
 
 export default App;
 
-{/* <div className="App" style={{ marginTop: 250 }}>
-      <center>
-        <input type="Number" placeholder="Enter your name" value={name}
-          onChange={(e) => setName(e.target.value)} />
-        <br /><br />
-        
-        <button onClick={Push}>PUSH</button>
-      </center>
-    </div> */}
