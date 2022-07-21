@@ -28,8 +28,8 @@ function App() {
     <>
       <div class="protected content bg-indigo">
 
-
-        <div class="container is-big section-cta to-reveal">
+        <p class="text-center"> LET'S AUTOMATE YOUR HOME WITH</p>
+        <div class="container py-0 is-big section-cta to-reveal">
           <div class="container-fluid fancy-border">
             <div class="row">
               <div class="col-lg-12  align-middle black-bg">
@@ -53,7 +53,7 @@ function App() {
                   <div class="row">
                     <div class="col-md-3 col-sm-6">
                       <div class="card border-success mb-4">
-                        <div class="card-header">Header</div>
+                        <div class="card-header">Bedroom</div>
                         <div class="card-body text-success">
                           <h5 class="card-title">TV</h5>
                           <div class="d-flex justify-content-center">
@@ -68,11 +68,11 @@ function App() {
 
 
 
-                            <input type="checkbox " class="toggle" checked={first}
+                          <input type="checkbox" class="toggle" checked={first}
                               onChange={e => setfirst(e.target.checked)} />
                             <div class="switch">
                               <div class="inner">
-                                <div class="disc" id='1st' ></div>
+                                <div class="disc" id='1st'></div>
                               </div>
                             </div>
                           </div>
@@ -85,7 +85,7 @@ function App() {
 
                     <div class="col-md-3 col-sm-6">
                       <div class="card border-light mb-4">
-                        <div class="card-header">Header</div>
+                        <div class="card-header">Kitchen</div>
                         <div class="card-body">
                           <h5 class="card-title">Fridge</h5>
                           <div class="d-flex justify-content-center">
@@ -113,7 +113,7 @@ function App() {
 
                     <div class="col-md-3 col-sm-6">
                       <div class="card border-info mb-4">
-                        <div class="card-header">Header</div>
+                        <div class="card-header">Drawing Room</div>
                         <div class="card-body text-info">
                           <h5 class="card-title">Light</h5>
                           <div class="d-flex justify-content-center">
@@ -139,7 +139,7 @@ function App() {
 
                     <div class="col-md-3 col-sm-6">
                       <div class="card border-danger fancy-border mb-4">
-                        <div class="card-header">Header</div>
+                        <div class="card-header">Bedroom</div>
                         <div class="card-body text-danger">
                           <h5 class="card-title">Fan</h5>
                           <div class="d-flex justify-content-center">
